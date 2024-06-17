@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  background-color: #F1F1F2;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+  
+}
+.title-font{
+  font-size: x-large;
+}
+
+
+/* login Registration forms*/
+.log-reg-Card{
+  background-color: #A1D6E2;
+}
+.log-res-button{
+  background-color: #1995AD;
+}
+
+
+.navbar{
+  background-color: #1995AD !important;
+}
+
+.title-icons{
+  color: white;
+}
+
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.registerBg{
+  background-color: rgb(255, 255, 255);
+}
+
+/* transection page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+  background-color:#A1D6E2
+}
+
+/* transection page */
+
+/* antd icons */
+.switch-icons{
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.analytics-width{
+  width: 50%;
+}
+
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color: grey;
+}
+
+/* antd icons */
+
